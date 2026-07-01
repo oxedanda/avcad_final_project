@@ -29,13 +29,14 @@ Taken together, these results are more consistent with **agricultural restructur
 data/raw/                  Original INE .xls files
 data/processed/            Harmonised mainland extracts
 notebooks/01_data_loading_and_audit.ipynb
-                           Initial extraction and audit notebook
 notebooks/02_full_analysis.ipynb
-                           Reproducible EDA and inferential analysis
-src/prepare_data.py        Raw XLS extraction, cleaning, translation and validation
+notebooks/03_labor_land_use_analysis.ipynb
+notebooks/04_permanent_temporary_crops.ipynb
+notebooks/05_grassland_productivity.ipynb
+src/prepare_data.py        Raw XLS extraction, cleaning and validation
 src/analysis.py            Authoritative analysis pipeline
 outputs/figures/           Report-ready visualisations
-outputs/tables/            Descriptive, inferential and provenance tables
+outputs/tables/            Descriptive and inferential results
 report/                    Final report files
 ```
 
